@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ToolOptions</class>
+ <widget class="QDialog" name="ToolOptions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>442</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pB_SaveOpt">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>270</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SAVE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pB_DefaultOpt">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>270</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DEFAULT</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cB_toolSelected">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>86</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Tool 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 10</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 12</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 13</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 14</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 15</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 16</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 17</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 18</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 19</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 20</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 21</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 22</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 23</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 24</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 26</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 27</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 28</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 29</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 30</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 31</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tool 32</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>20</y>
+     <width>121</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tool Thresholds</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>121</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tool Description</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="tE_toolDescription">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tool Description Not Available&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>20</y>
+     <width>42</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tool</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lE_toolBumpTh">
+   <property name="geometry">
+    <rect>
+     <x>271</x>
+     <y>57</y>
+     <width>142</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>57</y>
+     <width>65</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Bump Th:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lE_toolShakeTh">
+   <property name="geometry">
+    <rect>
+     <x>271</x>
+     <y>90</y>
+     <width>142</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>90</y>
+     <width>65</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Shake Th:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
